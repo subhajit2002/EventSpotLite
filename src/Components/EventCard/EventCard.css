@@ -1,0 +1,25 @@
+/* EventCard.css */
+.event-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-image {
+    transition: transform 0.3s ease;
+  }
+  
+  .event-card:hover .event-image {
+    transform: scale(1.05);
+  }
+  
+  .event-title {
+    transition: color 0.3s ease;
+  }
+  
+  .event-card:hover .event-title {
+    color: #1d4ed8; /* Tailwind's blue-700 */
+  }
