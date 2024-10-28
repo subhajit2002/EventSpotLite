@@ -1,0 +1,2 @@
+# EventSpotLite
+EventSpot Lite
